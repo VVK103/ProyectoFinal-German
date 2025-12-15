@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <title>Registrarse</title>
     <!--Registro de Usuarios-->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="CSS/styles.css">
+    <script src="JS/script.js"></script>
 </head>
 <body id="fondo">
     <header>
@@ -46,7 +47,7 @@
                             <a class="nav-link" href="Contacto.html">Contacto</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="perfil.html">Perfil <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="profile.html">Perfil <span class="sr-only">(current)</span></a>
                         </li>
                     </ul>
                 </div>

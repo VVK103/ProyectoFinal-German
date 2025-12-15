@@ -7,6 +7,7 @@
     <!--login-->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="CSS/styles.css">
+    <script src="JS/script.js"></script>
 </head>
 <body id="fondo">
 
@@ -26,7 +27,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="file:///C:/xampp/htdocs/ProyectoFinal-German/index.html">Inicio</a>
+                            <a class="nav-link" href="index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="PracticasSeguras.html">Prácticas Seguras</a>
@@ -47,7 +48,7 @@
                             <a class="nav-link" href="Contacto.html">Contacto</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="perfil.html">Perfil <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="profile.html">Perfil <span class="sr-only">(current)</span></a>
                         </li>
                     </ul>
                 </div>
