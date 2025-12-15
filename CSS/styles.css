@@ -1,13 +1,21 @@
 
 #fondo {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #1f2937;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #303f53;
     background-image: url('../img/masrinoos.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     position: relative;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
+/* Asegurar que el contenido esté encima del overlay */
+header, main, footer {
+    position: relative;
+    z-index: 2;
+}
+
 /* Overlay oscuro sobre la imagen de fondo */
 body::before {
     content: '';
@@ -21,16 +29,11 @@ body::before {
     z-index: 1;
 }
 
-/* Asegurar que el contenido esté encima del overlay */
-header, main, footer {
-    position: relative;
-    z-index: 2;
-}
 
 /* Barra de Navegación */
 
 .navbar-dark .navbar-nav .nav-link {
-    color: rgba(255,255,255,0.9);
+    color: rgba(255, 255, 255, 0.702);
     transition: color 0.2s ease;
 }
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -95,9 +98,10 @@ a:hover {
     color: #7a1f2d; 
 }
 
+
 /* Tarjeta de Perfil y tarjetas */
 .profile-card, .card {
-    background-color: #ffffff97;
+    background-color: #ffffff82;
     border-radius: 12px;
     border: 1px solid rgba(15,23,42,0.06);
     color: #1f2937;

@@ -44,3 +44,5 @@ CREATE TABLE faq (
   categoria VARCHAR(100),
   orden INT
 );
+INSERT INTO usuarios (nombre, email, password)
+VALUES ('admin', 'admin@admin.com', 'admin123');
