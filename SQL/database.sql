@@ -83,3 +83,44 @@ VALUES
  'Grave',
  'choque_multiple_20022024.jpg'
 );
+INSERT INTO cascos (marca, modelo, tipo, certificacion, descripcion, precio_aprox, imagen)
+VALUES
+-- 1. Integral
+('Shoei', 'RF-1400', 'Integral', 'DOT / SNELL', 
+ 'Casco integral de alta protección, silencioso y cómodo para carretera.', 
+ 10500.00, 'img/shoei_rf1400.jpg'),
+
+-- 2. Modular
+('LS2', 'Valiant II', 'Modular', 'DOT / ECE', 
+ 'Casco abatible 180°, buena ventilación y visor solar integrado.', 
+ 4500.00, 'img/ls2_valiant2.jpg'),
+
+-- 3. Abierto (3/4)
+('Bell', 'Custom 500', 'Abierto', 'DOT', 
+ 'Casco clásico estilo vintage, ligero y cómodo para trayectos urbanos.', 
+ 3200.00, 'img/bell_custom500.jpg'),
+
+-- 4. Jet
+('HJC', 'IS-33 II', 'Jet', 'ECE', 
+ 'Casco jet con visor amplio y protección básica para ciudad.', 
+ 2800.00, 'img/hjc_is33.jpg'),
+
+-- 5. Off-Road
+('Fox', 'V1 Matte', 'Off-Road', 'DOT', 
+ 'Casco para motocross con excelente ventilación y mentonera extendida.', 
+ 3900.00, 'img/fox_v1.jpg'),
+
+-- 6. Doble Propósito (Enduro)
+('Arai', 'Tour-X4', 'Doble Propósito', 'DOT / ECE', 
+ 'Casco híbrido para carretera y terracería con visor anti-empañante.', 
+ 12500.00, 'img/arai_tourx4.jpg'),
+
+-- 7. Adventure / Rally
+('KTM', 'Adventure Rally', 'Rally', 'ECE', 
+ 'Casco para viajes largos, resistente y ventilado, ideal para aventura.', 
+ 9800.00, 'img/ktm_rally.jpg'),
+
+-- 8. Táctico / Multiuso
+('Giro', 'Sutton MIPS', 'Táctico', 'CPSC', 
+ 'Casco ligero diseñado para movilidad urbana eléctrica y bajas velocidades.', 
+ 2100.00, 'img/giro_sutton.jpg');
