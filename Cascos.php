@@ -88,7 +88,6 @@ $resultado = $conn->query($sql);
             font-family: Arial, sans-serif;
         }
 
-        /* Barra de navegación */
         .navbar {
             background-color: #222;
             padding: 15px;
