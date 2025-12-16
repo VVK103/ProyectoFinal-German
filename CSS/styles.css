@@ -1,4 +1,3 @@
-
 #fondo {
     font-family: Georgia, "Times New Roman", Times, serif;
     color: #303f53;
@@ -143,4 +142,23 @@ p {
 h2 {
     text-align: center;
     font-size: xx-large;
+}
+/*Accidentes*/
+.table-accidentes {
+    background-color: #f9f9f9; /* Fondo claro */
+    border-radius: 8px; /* Bordes redondeados */
+    overflow: hidden; /* Evitar desbordamiento */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+/* Ajustar el color del texto dentro de la tabla */
+.table-accidentes th {
+    background-color: #671a25; /* Fondo oscuro para encabezados */
+    color: #ffffff; /* Texto blanco */
+    text-align: center; /* Centrar texto */
+}
+
+.table-accidentes td {
+    color: #303f53; /* Texto oscuro para celdas */
+    text-align: center; /* Centrar texto */
 }
