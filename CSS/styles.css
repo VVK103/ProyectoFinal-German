@@ -9,13 +9,11 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-/* Asegurar que el contenido esté encima del overlay */
 header, main, footer {
     position: relative;
     z-index: 2;
 }
 
-/* Overlay oscuro sobre la imagen de fondo */
 body::before {
     content: '';
     position: fixed;
@@ -28,8 +26,6 @@ body::before {
     z-index: 1;
 }
 
-
-/* Barra de Navegación */
 
 .navbar-dark .navbar-nav .nav-link {
     color: rgba(255, 255, 255, 0.702);
@@ -48,17 +44,14 @@ body::before {
     color: #ffffff;
 }
 
-/* Tema principal: granate en componentes que usan .bg-primary */
 .bg-primary {
     background-color: #671a25 !important;
 }
 
-/* Fondo secundario (por ejemplo footer) */
 .bg-secondary {
     background-color: #671a25 !important;
 }
 
-/* Sombras */
 .shadow-sm { 
     box-shadow: 0 .125rem .25rem rgba(15,23,42,0.06) !important; 
 }
@@ -67,7 +60,6 @@ body::before {
 }
 
 
-/* Botones */
 .btn-primary {
     background-color: #7a1f2d;
     border-color: #7a1f2d;
@@ -89,7 +81,6 @@ body::before {
     color: #ffffff;
 }
 
-/* Enlaces y textos interactivos */
 a { 
     color: #5a0f14; 
 }
@@ -98,38 +89,32 @@ a:hover {
 }
 
 
-/* Tarjeta de Perfil y tarjetas */
 .profile-card, .card {
-    background-color: #ffffff82;
+    background-color: #ffffffc5;
     border-radius: 12px;
     border: 1px solid rgba(15,23,42,0.06);
     color: #1f2937;
 }
-/* Contenedores y card-body */
 .container, .card-body {
     background-color: transparent;
 }
 
-/* Badges */
 .badge-primary {
     background-color: #7a1f2d;
     color: #ffffff;
 }
 
-/* Inputs y formularios */
 input, textarea, .form-control {
     background-color: #ffffff;
     border: 1px solid rgba(15,23,42,0.06);
     color: #1f2937;
 }
 
-/* Ajustes visuales menores */
 .text-primary { 
     color: #7a1f2d !important; 
 }
 
 
-/* Responsive */
 @media (max-width: 768px) {
     .navbar-brand { font-size: 1.1rem; }
     h1 { font-size: 1.8rem; }
@@ -143,22 +128,20 @@ h2 {
     text-align: center;
     font-size: xx-large;
 }
-/*Accidentes*/
 .table-accidentes {
-    background-color: #f9f9f9; /* Fondo claro */
-    border-radius: 8px; /* Bordes redondeados */
-    overflow: hidden; /* Evitar desbordamiento */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    background-color: #f9f9f9; 
+    border-radius: 8px; 
+    overflow: hidden; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
-/* Ajustar el color del texto dentro de la tabla */
 .table-accidentes th {
-    background-color: #671a25; /* Fondo oscuro para encabezados */
-    color: #ffffff; /* Texto blanco */
-    text-align: center; /* Centrar texto */
+    background-color: #671a25;
+    color: #ffffff; 
+    text-align: center;
 }
 
 .table-accidentes td {
-    color: #303f53; /* Texto oscuro para celdas */
-    text-align: center; /* Centrar texto */
+    color: #303f53;
+    text-align: center;
 }

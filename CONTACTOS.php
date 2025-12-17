@@ -76,7 +76,7 @@ $confirmed = $_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['confirm']);
                         <?php if ($isSecure): ?>
                           <p style="color:green;">Se ha establecido una conexión segura.</p>
                         <?php else: ?>
-                          <p style="color:red;">La conducción segura no depende solo de conocer las normas de tránsito; también implica valores como respeto, responsabilidad y convivencia vial. A continuación se presentan las reglas esenciales y los valores que todo conductor debe practicar para proteger su vida y la de los demás.</p>
+                          <p >La conducción segura no depende solo de conocer las normas de tránsito; también implica valores como respeto, responsabilidad y convivencia vial. A continuación se presentan las reglas esenciales y los valores que todo conductor debe practicar para proteger su vida y la de los demás.</p>
 
                           <h2>Reglas fundamentales de una conducción segura</h2>
                           <ul>
